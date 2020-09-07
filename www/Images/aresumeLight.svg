@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="aresumeLight.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg2138"
+   version="1.1"
+   viewBox="0 0 234.34525 27.970238"
+   height="27.970238mm"
+   width="234.34525mm">
+  <defs
+     id="defs2132" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="705"
+     inkscape:window-width="1360"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="104.28572"
+     inkscape:cx="1252.8572"
+     inkscape:zoom="0.35"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata2135">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(345.47024,2.735118)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       y="-2.7351182"
+       x="-345.47025"
+       height="27.970238"
+       width="234.34525"
+       id="rect839"
+       style="opacity:0.772;fill:#3a4772;fill-opacity:1;stroke-width:0.399143" />
+    <text
+       transform="scale(1.0608391,0.94265003)"
+       id="text847-3-2"
+       y="16.804409"
+       x="-213.05548"
+       style="font-style:normal;font-weight:normal;font-size:16.1991px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.404978"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;stroke-width:0.404978"
+         y="16.804409"
+         x="-213.05548"
+         id="tspan845-0-5"
+         sodipodi:role="line">Add Resume</tspan></text>
+  </g>
+</svg>

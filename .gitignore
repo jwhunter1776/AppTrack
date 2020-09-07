@@ -1,0 +1,7 @@
+node_modules
+platforms/electron/config.xml
+platforms/electron/electron.json
+platforms/electron/www/cdv-electron-settings.json
+platforms/electron/www/config.xml
+platforms/electron/www/manifest.json
+platforms/electron/www/package.json

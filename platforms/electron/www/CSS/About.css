@@ -1,0 +1,169 @@
+
+body{
+    margin: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exit-btn{
+    margin-top: 1em;
+    margin-right: 1em;
+    text-align: right;
+}
+
+.exit-btn img{
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+}
+
+.logo img{
+    padding-top: -.1em;
+    padding-right: 4em;
+}
+
+.aboutHeading1{
+    font-weight: bold;
+}
+
+.aboutHeading2{
+    font-size: 10pt;
+    margin-top: -.75em;
+}
+
+.aboutHeading3{
+    font-size: 10pt;
+    margin-top: -.75em;
+}
+
+.aboutHeading4{
+    font-size: 10pt;
+    margin-top: -.75em;
+}
+
+.aboutHeading5{
+    font-size: 10pt;
+    margin-top: -.75em;
+}
+
+.aboutHeading6{
+    font-size: 10pt;
+    margin-top: -.75em;
+}
+
+.authorHeading1{
+    display: block;
+    padding-top: 5em;
+    text-align: left;
+    font-weight: bold;
+}
+
+.authorHeading1 img{
+    text-align: left;
+    width: 75px;
+    height: auto;
+}
+
+.authorHeading1 p{
+    margin-top: -6em;
+    margin-left: 6em;
+    text-align: left;
+    text-decoration-line: underline; 
+    text-decoration-style: solid;
+}
+
+.authorHeading2{
+    font-size: 8.75pt;
+    margin-top: -1.25em;
+    margin-left: 8em;
+    margin-bottom: 4em;
+}
+
+
+@media only screen and (min-width: 1024px){
+
+    .exit-btn img{
+        padding-top: 1.5em;
+    }
+
+
+    .logo img{
+        padding-top: 2em;
+        padding-left: 1.5em;
+        padding-right: 0em;
+    }
+
+    .aboutHeading1{
+        font-weight: bold;
+        margin-left: 1.5em;
+    }
+    
+    .aboutHeading2{
+        font-size: 10pt;
+        margin-top: -.75em;
+        margin-left: 1.75em;
+    }
+    
+    .aboutHeading3{
+        font-size: 10pt;
+        margin-top: -.75em;
+        margin-left: 1.75em;
+    }
+    
+    .aboutHeading4{
+        font-size: 10pt;
+        margin-top: -.75em;
+        margin-left: 1.75em;
+    }
+    
+    .aboutHeading5{
+        font-size: 10pt;
+        margin-top: -.75em;
+        margin-left: 1.75em;
+    }
+    
+    .aboutHeading6{
+        font-size: 10pt;
+        margin-top: -.75em;
+        margin-left: 1.75em;
+    }
+    
+    .authorHeading1{
+        display: block;
+        padding-top: 5em;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 1.5em;
+    }
+    
+    .authorHeading1 img{
+        text-align: left;
+        width: 75px;
+        height: auto;
+        padding-left: 1.5em;
+    }
+    
+    .authorHeading1 p{
+        margin-top: -6em;
+        margin-left: 6em;
+        text-align: left;
+        text-decoration-line: underline; 
+        text-decoration-style: solid;
+        padding-left: 1.5em;
+    }
+    
+    .authorHeading2{
+        font-size: 8.75pt;
+        margin-top: -1.25em;
+        margin-left: 12.25em;
+        margin-bottom: 4em;
+    }
+
+    .information{
+        margin-left: 1.5em;
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "com.apptrack.app",
+  "displayName": "AppTrack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "webapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-electron": "^1.1.1",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android",
+      "electron"
+    ]
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "sqlite3": "^5.0.0"
+  }
+}

@@ -1,0 +1,178 @@
+@import url('http://fonts.googleapis.com/css?family-Montserrat:400,600');
+
+body{
+    margin: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 35px;
+    margin-top: 25%;
+    margin-right: 10px;
+}
+
+nav ul{
+    position: fixed;
+    width: 60%;
+    top:0;
+    right:0;
+    text-align: left;
+    background: rgb(36, 41, 44);
+    height: 100%;
+    z-index: 7;
+    padding-top: 2em;
+}
+
+nav ul li a{
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 1em;
+    background-color: rgb(36, 41, 44);
+}
+
+
+nav ul li a:hover{
+    background-color: #4b5c95;
+}
+
+.hide-mobile{
+    display: none;
+}
+
+.exit-btn{
+    margin-bottom: -1em;
+    margin-top: -1em;
+    margin-right: -1em;
+    text-align: right;
+    padding:0 2em 1em 0;
+}
+
+.exit-btn img{
+    width: 30px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.show-home img{
+    margin-top: .2em;
+    width: 99%;
+    height: 15%;
+}
+
+.show-positiontype  img{
+    width: 99%;
+    height: 15%;
+}
+
+.show-recruiting  img{
+    width: 99%;
+    height: 15%;
+}
+
+.show-applied  img{
+    width: 99%;
+    height: 15%;
+}
+
+
+@media only screen and (min-width: 650px){
+
+    nav ul{
+        width: 30%;
+    }
+}
+
+
+@media only screen and (min-width: 875px){
+
+    nav ul{
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .logo{
+        width: 18%;
+    }
+
+    .container{
+        width: 95%;
+        margin: 0 0 0 2%;
+    }
+
+    .show-desktop{
+        display: block;
+        margin: 0 0 0 0;
+    }
+
+    .hide-desktop{
+        display: none;
+    }
+
+    nav ul{
+        position: inherit;
+        width: auto;
+        background: none;
+        display: flex;
+        padding-top: 0;
+    }
+
+    nav ul li{
+        float: left;
+    }
+
+    nav ul li a{
+        color: black;
+        background-color: inherit;
+        text-align: left;
+        padding: 1em 2em;
+    }
+
+    nav ul li a:hover{
+        background-color: inherit;
+    }
+
+    h3{
+        margin-left: 1.75%;
+    }
+
+    .show-home img{
+        width: 250px;
+        height: 100px;
+    }
+
+    .show-positiontype img{
+        padding-top: .2em;
+        padding-left: .2em;
+        width: 250px;
+        height: 100px;
+    }
+
+    .show-recruiting img{
+        padding-top: .2em;
+        padding-left: .2em;
+        width: 250px;
+        height: 100px;
+    }
+
+    .show-applied img{
+        padding-top: .2em;
+        padding-left: .2em;
+        width: 250px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <title>App Track</title>
+    <link rel="stylesheet" href="CSS/Main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+                <img src="Images/logo.svg" alt="Keep track of where you have applied" class="logo">
+                <nav>
+                    <a href="#" class="hide-desktop">
+                        <img src="Images/mobilemenu.svg" alt="Toggle Menu" class="menu" id="menu">
+                    </a>
+
+                    <ul class="show-desktop hide-mobile" id="nav">
+                        <li id="exit" class="exit-btn hide-desktop"><img src="Images/exit.svg" alt="Exit Menu"></li>
+                        <li id="home" class="show-home"><img id="homeImg" src="Images/dappliedposLight.svg" alt="Display Applied Position"></li>
+                        <li id="positiontype" class="show-positiontype"><img id="positiontypeImg" src="Images/apositionLight.svg" alt="Add Position Type"></li>
+                        <li id="recruiting" class="show-recruiting"><img id="recruitingImg" src="Images/arecruitingcoLight.svg" alt="Add Recruiting Company"></li>
+                        <li id="applied" class="show-applied"><img id="appliedImg" src="Images/dappliedposLight.svg" alt="Add Applied Position"></li>                        
+                    </ul>
+                </nav>
+        </header>
+    </div>
+
+    <div class="appliedpositions">
+        <h3>Applied Positions:</h3>
+    </div>
+
+    <footer>
+    
+    </footer>
+
+    <script src="JavaScript/webapp.js"></script>
+
+</body>
+</html>

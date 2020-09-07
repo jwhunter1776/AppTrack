@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60.378464mm"
+   height="9.8147974mm"
+   viewBox="0 0 60.378464 9.8147974"
+   version="1.1"
+   id="svg5683"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <defs
+     id="defs5677" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="41.298022"
+     inkscape:cy="-2.8135332"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1360"
+     inkscape:window-height="685"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5680">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.08083014,4.4121698)">
+    <g
+       id="g6275"
+       transform="matrix(2.5993829,0,0,3.7770717,-0.74334385,-10.828169)">
+      <path
+         transform="matrix(11.815901,0,0,1.2571511,-180.27896,-0.57294004)"
+         inkscape:transform-center-x="-1.2261291"
+         d="M 17.249977,2.8404465 16.499099,3.8739421 15.284152,3.4791819 V 2.2017111 l 1.214947,-0.3947602 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="0.62831853"
+         sodipodi:arg1="0"
+         sodipodi:r2="0.87914383"
+         sodipodi:r1="1.0866816"
+         sodipodi:cy="2.8404465"
+         sodipodi:cx="16.163296"
+         sodipodi:sides="5"
+         id="path6266"
+         style="opacity:0.772;fill:#001249;fill-opacity:1;stroke-width:0.26458332"
+         sodipodi:type="star" />
+      <text
+         transform="matrix(1.7267443,0,-0.13689924,0.57912455,0,0)"
+         id="text6270"
+         y="5.6725507"
+         x="0.7686606"
+         style="font-style:normal;font-weight:normal;font-size:2.98438573px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.0143944"
+         xml:space="preserve"><tspan
+           style="font-size:2.02881455px;fill:#ffffff;fill-opacity:1;stroke-width:1.0143944"
+           y="5.6725507"
+           x="0.7686606"
+           id="tspan6268"
+           sodipodi:role="line">App Track</tspan></text>
+    </g>
+  </g>
+</svg>
