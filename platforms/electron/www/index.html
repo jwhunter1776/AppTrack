@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com; style-src 'self'; media-src *; img-src 'self' data: content:;">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com; style-src 'self'; media-src *; img-src 'self' data: content:;"> -->
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
@@ -21,9 +22,9 @@
                     </a>
 
                     <ul class="show-desktop hide-mobile" id="nav">
-                        <li id="exit" class="exit-btn hide-desktop"><img src="Images/exit.svg" alt="Exit Menu"></li>
+                        <!-- <li id="exit" class="exit-btn hide-desktop"><img src="Images/exit.svg" alt="Exit Menu"></li> -->
                         <li id="home" class="show-home"><img id="homeImg" src="Images/dappliedposLight.svg" alt="Display Applied Position"></li>
-                        <li id="positiontype" class="show-positiontype"><img id="positiontypeImg" src="Images/apositionLight.svg" alt="Add Position Type"></li>
+                        <li id="positiontype" class="show-positiontype "><img id="positiontypeImg" src="Images/apositionLight.svg" alt="Add Position Type"></li>
                         <li id="recruiting" class="show-recruiting"><img id="recruitingImg" src="Images/arecruitingcoLight.svg" alt="Add Recruiting Company"></li>
                         <li id="applied" class="show-applied"><img id="appliedImg" src="Images/aapositionLight.svg" alt="Add Applied Position"></li>
                         <li id="resume" class="show-resume"><img id="resumeImg" src="Images/aresumeLight.svg" alt="Add Resume"></li>                        
@@ -46,6 +47,7 @@
     
     </footer>
     <script src="JavaScript/webapp.js"></script>
+    <script src="JavaScript/home.js"></script>
 
 </body>
 </html>

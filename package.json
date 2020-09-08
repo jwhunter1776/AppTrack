@@ -3,9 +3,10 @@
   "displayName": "AppTrack",
   "version": "1.0.0",
   "private": true,
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "Keep track of where you have applied",
   "main": "webapp.js",
   "scripts": {
+    "plugins": "true",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -29,6 +30,7 @@
   },
   "dependencies": {
     "fs": "0.0.1-security",
+    "open": "^7.2.1",
     "sqlite3": "^5.0.0"
   }
 }

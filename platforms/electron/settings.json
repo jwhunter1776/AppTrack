@@ -6,6 +6,8 @@
     "resizable": true,
     "webPreferences": {
       "nodeIntegration": true
-    }
+    },
+	"allowRunningInsecureContent": true,
+	"plugins": true
   }
 }

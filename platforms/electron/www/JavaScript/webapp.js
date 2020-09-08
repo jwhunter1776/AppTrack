@@ -1,4 +1,3 @@
-
 /*
 //////////////////////////////////////////////////////////////////////////////////
                             Database Section
@@ -7,7 +6,15 @@
 const fs = require('fs');
 const sqlite3 = require('sqlite3');
 const { loadavg } = require('os');
+const { table } = require('console');
 const dbFile ='www/Data/apptrack.db';
+const open = require('open');
+
+function openFile(buttonText) {
+  open(buttonText, {wait: true});
+  return "Opened";
+}
+
 
 document.getElementById("logo").onload = function() {getDatabase()};
 
@@ -149,11 +156,6 @@ menu.addEventListener('click', function(e){
     e.preventDefault();
 });
 
-exit.addEventListener('click', function(e){
-    nav.classList.add('hide-mobile');
-    e.preventDefault();
-});
-
 home.addEventListener('click', function(e){
     document.getElementById('homeImg').src='Images/dappliedposDark.svg';
     document.getElementById('positiontypeImg').src='Images/apositionLight.svg';
@@ -161,17 +163,28 @@ home.addEventListener('click', function(e){
     document.getElementById('appliedImg').src='Images/aapositionLight.svg';
     document.getElementById('resumeImg').src='Images/aresumeLight.svg';
     changeSectionHeader("Positions Applied:");
-
-    if(document.body.contains(document.getElementById('createdTable')) == false){
+    
+    if(screen.width <= 1230)
+    {
+      nav.classList.toggle('hide-mobile')
+    }
+    else
+    {
+      nav.classList.add('hide-mobile');
+    }
+    
+    if(document.body.contains(document.getElementById('appliedTable')) == false){
       const javascriptDir = process.cwd() + "/www/JavaScript/home.js";
-      const createTable = require(javascriptDir);
-  
-      const createNewTable = new createTable();
-  
-      document.body.appendChild(createNewTable.testTable());
+      const homejs = require(javascriptDir);
+      const displayAppliedPositionTable = new homejs.DisplayAppliedPositionTable;
+      const getDisplayData = new homejs.GetDisplayData;
+
+
+
+
+      displayAppliedPositionTable.createTable();
+      getDisplayData.getAppliedData();
     };
-
-
 
     e.preventDefault();
 });
@@ -184,8 +197,18 @@ positiontype.addEventListener('click', function(e){
     document.getElementById('resumeImg').src='Images/aresumeLight.svg';
     changeSectionHeader("Add Position Type:");
 
-    if(document.body.contains(document.getElementById('createdTable')) == true){
-      document.body.removeChild(document.getElementById('createdTable'));
+    if(screen.width <= 1230)
+    {
+      nav.classList.toggle('hide-mobile')
+    }
+    else
+    {
+      nav.classList.add('hide-mobile');
+    }
+
+    if(document.body.contains(document.getElementById('appliedTable')) == true){
+      appliedTable = document.getElementById('appliedTable');
+      appliedTable.parentNode.removeChild(appliedTable);
     };
 
     e.preventDefault();
@@ -198,9 +221,19 @@ recruiting.addEventListener('click', function(e){
     document.getElementById('appliedImg').src='Images/aapositionLight.svg';
     document.getElementById('resumeImg').src='Images/aresumeLight.svg';
     changeSectionHeader("Add Recruiting Company:");
+    
+    if(screen.width <= 1230)
+    {
+      nav.classList.toggle('hide-mobile')
+    }
+    else
+    {
+      nav.classList.add('hide-mobile');
+    }
 
-    if(document.body.contains(document.getElementById('createdTable')) == true){
-      document.body.removeChild(document.getElementById('createdTable'));
+    if(document.body.contains(document.getElementById('appliedTable')) == true){
+      appliedTable = document.getElementById('appliedTable');
+      appliedTable.parentNode.removeChild(appliedTable);
     };
 
     e.preventDefault();
@@ -213,9 +246,19 @@ applied.addEventListener('click', function(e){
     document.getElementById('appliedImg').src='Images/aapositionDark.svg';
     document.getElementById('resumeImg').src='Images/aresumeLight.svg';
     changeSectionHeader("Add Applied Position:");
+    
+    if(screen.width <= 1230)
+    {
+      nav.classList.toggle('hide-mobile')
+    }
+    else
+    {
+      nav.classList.add('hide-mobile');
+    }
 
-    if(document.body.contains(document.getElementById('createdTable')) == true){
-      document.body.removeChild(document.getElementById('createdTable'));
+    if(document.body.contains(document.getElementById('appliedTable')) == true){
+      appliedTable = document.getElementById('appliedTable');
+      appliedTable.parentNode.removeChild(appliedTable);
     };
 
     e.preventDefault();
@@ -228,9 +271,19 @@ resume.addEventListener('click', function(e){
     document.getElementById('appliedImg').src='Images/aapositionLight.svg';
     document.getElementById('resumeImg').src='Images/aresumeDark.svg';
     changeSectionHeader("Add Resume:");
+    
+    if(screen.width <= 1230)
+    {
+      nav.classList.toggle('hide-mobile')
+    }
+    else
+    {
+      nav.classList.add('hide-mobile');
+    }
 
-    if(document.body.contains(document.getElementById('createdTable')) == true){
-      document.body.removeChild(document.getElementById('createdTable'));
+    if(document.body.contains(document.getElementById('appliedTable')) == true){
+      appliedTable = document.getElementById('appliedTable');
+      appliedTable.parentNode.removeChild(appliedTable);
     };
 
     e.preventDefault();
@@ -239,98 +292,3 @@ resume.addEventListener('click', function(e){
 function changeSectionHeader(displayedText){
     document.getElementById("sectionHeader").innerText=displayedText;
     };
-
-var testStringify = String.raw
-`Description
-
-General Purpose of Job
-
-
-Implement database processes, reports, dashboards and various other BI artifacts and processes for internal and external clients based on business requirements using industry best practices.
-
-
-Duties and Responsibilities
-
-• Translate BI business requirements into tasks and estimate the size of the tasks 
-
-• Research requirements for BI requests to provide the requested functionality of each request, e.g. data extract, report,  dashboard, etc.        
-
-• Decide the best use of available technologies to complete a variety of assigned tasks
-
-• Design and implement data marts. Extend existing data mart implementations.
-
-• Develop reports using Microsoft SQL Server Reporting Services development environment
-
-• Develop dashboards using MS Power BI.
-
-• Develop code using the T-SQL language to meet BI project requirements
-
-• Develop MS SQL Server SSIS packages to meet BI project requirements
-
-• Design report layouts that provide a user-friendly experience
-
-• Analyze performance of each report or query and implement proper optimization techniques
-
-• Follow documented processes to generate reports, packets, charts to various business units
-
-• Troubleshoot and resolve technical issues
-
-• Report progress to team(s) on the implementation of assigned projects/work items through daily scrum meetings
-
-• Maintain a positive work atmosphere by behaving and communicating in a manner that will facilitate working with customers, clients, co-workers, and management
-
-• Responsible for the security of workstation and work area in regard to the confidentiality of the data and the systems
-
-
-
-
-
-
-Requirements
-
-Knowledge,Skills & Abilities Desired
-
-
-• Advanced knowledge of SQL Server
-
-• Advanced Knowledge of database schema design 
-
-• Advanced knowledge of T-SQL
-
-• Advanced knowledge of Microsoft Reporting Services
-
-• Advanced Knowledge of Microsoft SSIS or any ETL tool
-
-• Advanced Knowledge of Excel
-
-• Medium knowledge of query optimization
-
-• Medium knowledge of Microsoft PowerBI or any dashboarding tool
-
-• Basic knowledge of Dimensional Modeling and Star Schema designs
-
-• Ability to understand & translate reporting business requirements into ETL processes, reports, and/or dashboards
-
-• Ability to work with software developers on system designs to advise on BI related processes
-
-• Demonstrate logic and math skills along with the ability to be inquisitive in analyzing requirements
-
-• Effective communication and organizational skills
-
-• Experience in a financial environment is a plus
-
-• Exposure to AGILE methodologies is a plus
-
-
-Educational And Professional Experience Requirements
-
-• 2 year degree in a related field plus 3 years of BI experience.
-`;
-
-//const dbFile ='www/Data/apptrack.db';
-
-fs.writeFileSync('www/Data/fileoutput.txt', JSON.stringify(testStringify), 'utf8');
-
-var stringRaw = fs.readFileSync('www/Data/fileoutput.txt','utf8');
-
-alert(JSON.parse(stringRaw));

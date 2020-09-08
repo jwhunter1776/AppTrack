@@ -1,0 +1,20 @@
+{
+    "id-0": {
+        "DeletedDtTm": null,
+		"RecruitingCompanyName": "Dice",
+		"RecruitingCompanyURL": "http://dice.com",
+		"LoginType": "0",
+		"LoginName": "jwhunter1776@gmail.com",
+		"LoginPass": "testpassword",
+		"CreatedDtTm": "09/06/2020, 11:24:00 PM"
+    },
+    "id-1": {
+        "DeletedDtTm": null,
+		"RecruitingCompanyName": "Indeed",
+		"RecruitingCompanyURL": "http://indeed.com",
+		"LoginType": "1",
+		"LoginName": null,
+		"LoginPass": null,
+		"CreatedDtTm": "09/06/2020, 11:24:00 PM"
+    }
+}
